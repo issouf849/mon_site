@@ -3,5 +3,5 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: './',  // 👈 Utiliser './' au lieu de '/mon_site/'
+  base: './',
 })
